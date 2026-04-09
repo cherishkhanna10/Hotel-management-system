@@ -6,22 +6,24 @@ def fuct():
   print("1, Book room")
   print("2, checkout room")
   print("3, show rooms")
-  print("4, exit")
 def book_room():
-
+  pass
 def check_room():
+  pass
 def show_room():
+  def show_room():
+    for i in Hotel_rooms:
+        print(i,"::",Hotel_rooms[i])
+  pass
 while True:
   fuct()
-  choice=input("Enter number alternative to the fuction to be performed(1(Book room)),(2(Checkout room)),(3(Show room)),(4(Exit)) ::")
+  choice=input("Enter number alternative to the fuction to be performed(1(Book room)),(2(Checkout room)),(3(Show room)))
   if choice=="1":
     book_room()
   elif choice=="2":
-    check_out()
+    check_room()
   elif choice=="3":
     show_room()
-  elif choice=="4":
-    print("exit from the program")
   else:
     print("Entered wrong value please try again")
   choice_con=input("Do you want to continue ??(yes/no)::")
@@ -31,7 +33,7 @@ while True:
     print("Thank you visit our hotel")
     break
     
-    break
+  
 
 
 
