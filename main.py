@@ -11,13 +11,12 @@ def book_room():
 def check_room():
   pass
 def show_room():
-  def show_room():
-    print("List of all rooms availability")
-    for room in Hotel_rooms:
-        if Hotel_rooms[room]=="Available":
-            print(room,"::",Hotel_rooms[room])
-        else:
-            print(room,"::","Booked")
+  print("List of all rooms availability")
+  for room in Hotel_rooms:
+      if Hotel_rooms[room]=="Available":
+          print(room,"::",Hotel_rooms[room])
+      else:
+          print(room,"::","Booked")
 while True:
   fuct()
   choice=input("Enter number alternative to the fuction to be performed(1(Book room)),(2(Checkout room)),(3(Show room)))
